@@ -71,7 +71,7 @@ INSTALLED_APPS += (
     'storages',
 )
 
-MEDIA_URL = 'https://s3.amazonaws.com/%s/' % AWS_STORAGE_BUCKET_NAME
+MEDIA_URL = ''
 
 
 # Static Assets
